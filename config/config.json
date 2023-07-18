@@ -1,0 +1,19 @@
+{
+    "mode": "local",
+    "local": {
+        "database": {
+            "username": "sa",
+            "password": "tech@123",
+            "database": "ivsm",
+            "host": "localhost",
+            "dialect": "mssql",
+            "seederStorage": "sequelize",
+            "seederStorageTableName": "SequelizeData"
+        },
+        "jwtSecret": "bA2xcjpf8y5aSUFsNB2qN5yymUBSs6es3qHoFpGkec75RCeBb8cpKauGefw5qy4",
+        "jwtExpirationInterval": 15,
+        "imageUploadAccountName" : "gs1ivsmimagedev",
+        "imageUploadKey" : "GebrK+bz8DbzTKlmm/wlkc9nog0ro41NFel2A4VfSY6iFyGRlpQXpn+725aKnxjHaG71EbxO4lFfpnLzxJNhaQ==",
+        "imageUploadContainer" : "image"
+    }
+}
