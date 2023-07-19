@@ -6,4 +6,6 @@ const sequelize_data = require("../controllers/sampleController");
 
 router.get("/user-data", sequelize_data.userData);
 
+router.get("/user-command", sequelize_data.userCommand);
+
 module.exports = router;
